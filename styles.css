@@ -1,0 +1,22 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #000; /* Fondo oscuro base */
+  color: #fff;
+  font-family: sans-serif;
+}
+
+#p5-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* El lienzo p5.js detrás del contenido */
+}
+
+.card {
+  background: rgba(0,0,0,0.7);
+  border: 1px solid #444;
+}
